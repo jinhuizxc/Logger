@@ -1,6 +1,6 @@
 package com.example.jh.logger;
 
-import android.support.v7.app.ActionBarActivity;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,7 +11,7 @@ import com.orhanobut.logger.Logger;
  * 本demo测试logger，听说是最牛逼的log神器？
  * 我来测试下喽。
  */
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
